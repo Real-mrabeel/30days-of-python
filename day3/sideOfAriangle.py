@@ -1,7 +1,14 @@
+first_name = 'Asabeneh'
+last_name = 'Yetayeh'
+language = 'Python'
+formated_string = 'I am %s %s. I teach %s' %(first_name, last_name, language)
+print(formated_string)
+
 text = 'python'
-text1 = float(text)
+# Use the string directly instead of converting to float which raises ValueError
+text1 = text
 print(text1)
-print(len(float(text)))
+print(len(text))
 
 #side of triangle
 
